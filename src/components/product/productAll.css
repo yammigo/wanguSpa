@@ -1,0 +1,1632 @@
+/* 产品详情 */
+
+div.proDetail div.pro_banner {
+    height: 24rem;
+    background: url('../../../static/img/product_banner.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+div.proDetail div.protit {
+    width: 67.5rem;
+    margin: 0 auto;
+    height: 3.5rem;
+    line-height: 3.5rem;
+    border-bottom: 1px solid #d9dadb;
+    font-size: 0px;
+}
+
+@media screen and (max-width: 767px) {
+    div.proDetail div.protit {
+        display: none;
+    }
+}
+
+div.proDetail div.protit a {
+    font-size: 14px;
+    color: #0078f0;
+    display: inline-block;
+}
+
+div.proDetail div.protit a span {
+    color: #333;
+}
+
+div.proDetail div.protit span {
+    font-size: 14px;
+    display: inline-block;
+    margin-left: 0.4rem;
+    margin-right: 0.4rem;
+}
+
+div.proDetail div.part div.title {
+    text-align: center;
+    padding-top: 2rem;
+    width: 67.5rem;
+    margin: 0 auto;
+    margin-bottom: 2.5rem;
+}
+
+@media screen and (max-width: 767px) {
+    div.proDetail div.part div.title h4 {
+        font-size: 1.8rem !important;
+    }
+    div.proDetail div.part div.title p {
+        font-size: 1.2rem !important;
+    }
+}
+
+div.proDetail div.part div.title h4 {
+    font-size: 34px;
+    color: #0078f0;
+    line-height: 2.6rem;
+    margin-bottom: 1rem;
+    font-weight: normal;
+}
+
+div.proDetail div.part div.title p {
+    font-size: 18px;
+    color: #666;
+    line-height: 2.1rem;
+}
+
+div.proDetail div.part01 div.cont {
+    width: 67.5rem;
+    margin: 0 auto;
+    padding-bottom: 4rem;
+}
+
+@media screen and (max-width: 767px) {
+    div.proDetail div.part01 div.cont {
+        padding-bottom: 0;
+        width: 100%;
+    }
+    div.proDetail div.part01 div.cont div.txt {
+        width: 100% !important;
+    }
+    div.proDetail div.part01 div.cont div.txt div:nth-child(2) {
+        margin: 0 auto;
+    }
+    div.proDetail div.part01 div.cont div.txt div:nth-child(2) img {
+        width: 100%;
+    }
+}
+
+div.proDetail div.part01 div.cont div.txt {
+    width: 35rem;
+    max-width: 92.5%;
+    display: inline-block;
+}
+
+div.proDetail div.part01 div.cont div.txt h4 {
+    padding-bottom: 3rem;
+    padding-top: 2.5rem;
+    font-size: 30px;
+    line-height: 1;
+    font-weight: normal;
+    color: #333;
+}
+
+@media screen and (max-width: 767px) {
+    div.proDetail div.part01 div.cont div.txt h4 {
+        padding-bottom: 2rem;
+        padding-left: 1.5rem;
+        padding-top: 0;
+        font-size: 1.8rem !important;
+    }
+}
+
+div.proDetail div.part01 div.cont div.txt h4 span.line {
+    display: inline-block;
+    width: 3px;
+    height: 1.4rem;
+    background: #0078f0;
+    margin-right: 1rem;
+}
+
+div.proDetail div.part01 div.cont div.txt div.item {
+    margin-bottom: 2.5rem;
+}
+
+@media screen and (max-width: 767px) {
+    div.proDetail div.part01 div.cont div.txt div.item {
+        padding-left: 2.5rem;
+    }
+    div.proDetail div.part01 div.cont div.txt div.item div.tit {
+        font-size: 1.5rem !important;
+    }
+    div.proDetail div.part01 div.cont div.txt div.item div {
+        font-size: 1.1rem !important;
+    }
+}
+
+div.proDetail div.part01 div.cont div.txt div.item div.tit {
+    font-size: 20px;
+    color: #0078f0;
+    line-height: 1.5rem;
+    margin-bottom: 1.2rem;
+    position: relative;
+}
+
+div.proDetail div.part01 div.cont div.txt div.item div.tit i.iconfont {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    display: block;
+    width: 1.5rem;
+    height: 1.5rem;
+    font-size: 1.4rem;
+}
+
+div.proDetail div.part01 div.cont div.txt div.item div {
+    font-size: 14px;
+    color: #333;
+    line-height: 1.7rem;
+    padding-left: 2.4rem;
+}
+
+div.proDetail div.part01 div.cont div.txt div.item div.option {
+    display: none;
+}
+
+div.proDetail div.part01 div.cont div.fr {
+    width: 28.5rem;
+    height: 30rem;
+    float: right;
+}
+
+div.proDetail div.part01 div.cont div.fr div.img {
+    width: 15rem;
+    margin: 0 auto;
+}
+
+div.proDetail div.part01 div.cont div.fr div.img img {
+    width: 100%;
+}
+
+div.proDetail div.part02 {
+    background: #f7faf9;
+    padding-top: 2.8rem;
+}
+
+@media screen and (max-width: 767px) {
+    div.proDetail div.part02 {
+        padding-top: 0;
+    }
+}
+
+div.proDetail div.part02 div.title h4 {
+    font-size: 32px;
+    color: #333;
+    line-height: 3.9rem;
+}
+
+div.proDetail div.part02 div.title span.line {
+    width: 3.3rem;
+    height: 3px;
+    background: #0078f0;
+    margin: 0 auto;
+    display: block;
+}
+
+div.proDetail div.part02 div.cont {
+    padding-left: 0rem;
+    padding-right: 0rem;
+    font-size: 0px;
+    width: 75rem;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 767px) {
+    div.proDetail div.part02 div.cont {
+        width: 100%;
+        padding: 0 1.5rem;
+    }
+    div.proDetail div.part02 div.cont div.item {
+        width: 100% !important;
+        padding: 0 0 !important;
+        padding-bottom: 1.5rem !important;
+        text-align: left !important;
+    }
+    div.proDetail div.part02 div.cont div.item i {
+        float: none;
+    }
+    div.proDetail div.part02 div.cont div.item p.tit {
+        float: none;
+        margin-left: 1rem;
+        margin-top: .5rem !important;
+        font-size: 1.5rem !important;
+        display: inline-block;
+    }
+    div.proDetail div.part02 div.cont div.item p.cnt {
+        padding-left: 3.5rem;
+        font-size: 1.2rem !important;
+    }
+    div.proDetail div.part02 div.cont div.item p:last-child {
+        clear: both;
+        padding-left: 3.5rem;
+        text-align: left;
+        font-size: 1rem;
+    }
+    div.proDetail div.part02 div.cont div.item p:last-child br {
+        display: none;
+    }
+}
+
+div.proDetail div.part02 div.cont div.item {
+    width: 22%;
+    font-size: 16px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    padding-bottom: 3.5rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    margin-right: 4%;
+}
+
+div.proDetail div.part02 div.cont div.item:nth-child(4n+4) {
+    margin-right: 0px;
+}
+
+div.proDetail div.part02 div.cont div.item i.iconfont {
+    font-size: 2.5rem;
+    background: -moz-linear-gradient(left, #63b0f7, #5ce4b9);
+    background: -webkit-linear-gradient(left, #63b0f7, #5ce4b9);
+    background: -o-linear-gradient(left, #63b0f7, #5ce4b9);
+    background: -ms-lintear-gradient(left, #63b0f7, #5ce4b9);
+    FILTER: progid: DXImageTransform.Microsoft.Gradient(startColorStr='#63b0f7', endColorStr='#5ce4b9');
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+div.proDetail div.part02 div.cont div.item p {
+    font-size: 14px;
+    color: #333;
+    line-height: 1.7rem;
+    text-align: justify;
+}
+
+div.proDetail div.part02 div.cont div.item p.tit {
+    font-size: 20px;
+    line-height: 1;
+    margin-top: 1.5rem;
+    margin-bottom: 0.8rem;
+    color: #0078f0;
+    text-align: center;
+}
+
+div.proDetail div.part03 {
+    width: 67.5rem;
+    margin: 0 auto;
+    padding-top: 2.5rem;
+    padding-bottom: 4.5rem;
+    font-size: 0px;
+}
+
+@media screen and (max-width: 767px) {
+    div.proDetail div.part03 {
+        width: 100% !important;
+    }
+}
+
+div.proDetail div.part03 div.img {
+    width: 32rem;
+    height: 40rem;
+    display: inline-block;
+    vertical-align: top;
+    background: url('../../../static/img/product02.jpg') no-repeat center center;
+    background-size: contain;
+}
+
+@media screen and (max-width: 767px) {
+    div.proDetail div.part03 div.img {
+        width: 100%;
+    }
+}
+
+div.proDetail div.part03 div.code {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 14rem;
+    margin-top: 12rem;
+    text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+    div.proDetail div.part03 div.code {
+        margin-top: 5rem;
+        display: block;
+        margin-left: 0;
+    }
+}
+
+div.proDetail div.part03 div.code div.img_code {
+    display: block;
+    width: 15rem;
+    height: 15rem;
+    margin: 0 auto;
+}
+
+div.proDetail div.part03 div.code div.img_code img {
+    width: 100%;
+}
+
+div.proDetail div.part03 div.code p {
+    font-size: 22px;
+    color: #0078f0;
+    margin-top: 2rem;
+}
+
+@media screen and (max-width: 767px) {
+    div.proDetail div.part03 div.code p {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    div.proDetail div.part div.title {
+        width: 100%;
+    }
+}
+
+
+/* HR SAAS */
+
+div.productSaas .container {
+    width: 67.5rem;
+    max-width: 90%;
+    margin: auto;
+}
+
+div.productSaas .container:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+div.productSaas .tab {
+    line-height: 3.7rem;
+    border-bottom: 1px solid #d9dadb;
+    font-size: 14px;
+    color: #333;
+}
+
+div.productSaas .tab .tab-hasNext {
+    color: #0078f0;
+}
+
+div.productSaas .tab .tab-hasNext:after {
+    content: " > ";
+    color: #333;
+}
+
+div.productSaas .title {
+    padding-top: 2.5rem;
+    font-size: 34px;
+    line-height: 1.7rem;
+    color: #0078f0;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+div.productSaas .intro {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+div.productSaas .content-title {
+    text-align: center;
+    padding-top: 3rem;
+    margin-bottom: 3rem;
+    font-size: 30px;
+    color: #333;
+}
+
+div.productSaas .content-title:after {
+    content: '';
+    margin: 1.2rem auto 0;
+    display: block;
+    width: 3.3rem;
+    height: 3px;
+    background: #0078f0;
+    margin-bottom: 3rem;
+}
+
+div.productSaas .content {
+    background: #f7f9fa;
+    padding-bottom: 2.8rem;
+}
+
+div.productSaas .content .img {
+    float: left;
+    width: 27.5rem;
+    max-width: 100%;
+    margin-right: 5.7rem;
+}
+
+div.productSaas .content .img img {
+    width: 100%;
+}
+
+div.productSaas .content .content-intro {
+    font-size: 14px;
+    color: #666;
+    margin-top: 7rem;
+    margin-left: 33.2rem;
+    line-height: 1.7rem;
+}
+
+div.productSaas .content-2 .card-group {
+    width: 60rem;
+    margin: 0 auto 4rem;
+}
+
+div.productSaas .content-2 .card-group .card {
+    float: left;
+    width: 50%;
+    padding: 0 2.4rem;
+}
+
+div.productSaas .content-2 .card-group .card i {
+    font-size: 3rem;
+    text-align: center;
+    color: #0078f0;
+    display: block;
+    margin-bottom: 2.5rem;
+}
+
+div.productSaas .content-2 .card-group .card .card-title {
+    font-size: 22px;
+    color: #0078f0;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+div.productSaas .content-2 .card-group .card .card-content {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.7rem;
+    text-align: justify;
+}
+
+div.productSaas .content-2 .card-group:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+div.productSaas .content-3 {
+    background: #f7f9fa;
+    padding-bottom: 4rem;
+}
+
+div.productSaas .content-3 .box {
+    position: relative;
+    width: 100%;
+    height: 29.5rem;
+}
+
+div.productSaas .content-3 .box .box-bg {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    margin: auto;
+}
+
+div.productSaas .content-3 .box .item {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 25rem;
+}
+
+div.productSaas .content-3 .box .item .item-img {
+    position: absolute;
+    width: 1.7rem;
+}
+
+div.productSaas .content-3 .box .item .item-img img {
+    width: 100%;
+}
+
+div.productSaas .content-3 .box .item .item-title {
+    color: #0078f0;
+    font-size: 20px;
+    line-height: 1.8rem;
+    margin-bottom: 1.15rem;
+}
+
+div.productSaas .content-3 .box .item .item-content {
+    font-size: 14px;
+    color: #333;
+    line-height: 1.7rem;
+    text-align: justify;
+    text-indent: 0px;
+}
+
+div.productSaas .content-3 .box .item.item-1,
+div.productSaas .content-3 .box .item.item-2 {
+    text-align: right;
+    text-indent: 2em;
+}
+
+div.productSaas .content-3 .box .item.item-1 .item-img,
+div.productSaas .content-3 .box .item.item-2 .item-img {
+    right: -1.3rem;
+}
+
+div.productSaas .content-3 .box .item.item-1 {
+    top: 4rem;
+    left: -49rem;
+}
+
+div.productSaas .content-3 .box .item.item-2 {
+    top: 15rem;
+    left: -45rem;
+}
+
+div.productSaas .content-3 .box .item.item-3 .item-img,
+div.productSaas .content-3 .box .item.item-4 .item-img,
+div.productSaas .content-3 .box .item.item-5 .item-img {
+    left: -3.1rem;
+}
+
+div.productSaas .content-3 .box .item.item-3 {
+    top: 2rem;
+    left: 45rem;
+}
+
+div.productSaas .content-3 .box .item.item-4 {
+    top: 10.5rem;
+    left: 46rem;
+}
+
+div.productSaas .content-3 .box .item.item-5 {
+    top: 18.8rem;
+    left: 41rem;
+}
+
+@media screen and (max-width: 767px) {
+    div.productSaas .tab {
+        font-size: .7rem;
+    }
+    div.productSaas .title {
+        font-size: 1.7rem;
+    }
+    div.productSaas .intro {
+        font-size: .9rem;
+    }
+    div.productSaas .content-title {
+        font-size: 1.5rem;
+    }
+    div.productSaas .content .img {
+        margin-bottom: 1rem;
+    }
+    div.productSaas .content .content-intro {
+        font-size: .7rem;
+    }
+    div.productSaas .content-2 .card-group {
+        width: 100%;
+    }
+    div.productSaas .content-2 .card-group .card {
+        padding: 0 1rem;
+    }
+    div.productSaas .content-2 .card-group .card .card-title {
+        font-size: 1.1rem;
+    }
+    div.productSaas .content-2 .card-group .card .card-content {
+        font-size: .7rem;
+    }
+    div.productSaas .content-3 .box {
+        height: auto;
+    }
+    div.productSaas .content-3 .box .box-bg {
+        display: none;
+    }
+    div.productSaas .content-3 .box .item {
+        position: static;
+        width: 100%;
+        margin-top: 1.5rem;
+        padding: 1.5rem;
+        padding-left: 4rem;
+        border: 1px solid #d9dadb;
+        background: #fff;
+    }
+    div.productSaas .content-3 .box .item .item-title {
+        font-size: 1rem;
+    }
+    div.productSaas .content-3 .box .item .item-content {
+        font-size: .7rem;
+    }
+    div.productSaas .content-3 .box .item.item-1,
+    div.productSaas .content-3 .box .item.item-2 {
+        text-align: left;
+        text-indent: 0;
+    }
+    div.productSaas .content-3 .box .item.item-1 .item-img,
+    div.productSaas .content-3 .box .item.item-2 .item-img,
+    div.productSaas .content-3 .box .item.item-3 .item-img,
+    div.productSaas .content-3 .box .item.item-4 .item-img,
+    div.productSaas .content-3 .box .item.item-5 .item-img {
+        left: 1rem;
+    }
+}
+
+
+/* 背调服务 */
+
+div.productBg .basic {
+    color: #0078f0;
+}
+
+div.productBg .container {
+    /* width: 67.5rem; */
+    width: 100%;
+    margin: auto;
+}
+
+div.productBg .tab {
+    line-height: 3.7rem;
+    border-bottom: 1px solid #d9dadb;
+    font-size: 14px;
+    color: #333;
+}
+
+div.productBg .tab .tab-hasNext {
+    color: #0078f0;
+}
+
+div.productBg .tab .tab-hasNext:after {
+    content: " > ";
+    color: #333;
+}
+
+div.productBg .title {
+    padding-top: 2.5rem;
+    font-size: 34px;
+    line-height: 1.7rem;
+    color: #0078f0;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+div.productBg .intro {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+div.productBg .content div.part01 {
+    width: 67.5rem;
+    margin: 0 auto;
+}
+
+div.productBg .content div.part01 div.item {
+    width: 55%;
+}
+
+div.productBg .content div.part02 {
+    padding: 3rem 14.84375%;
+}
+
+div.productBg .content .sub-title {
+    padding-left: 1rem;
+    border-left: 3px solid #0078f0 !important;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 1.5rem;
+}
+
+div.productBg .content .text {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.7rem;
+    margin: -0.4rem 0 2.6rem;
+}
+
+div.productBg .content .img {
+    float: right;
+    width: 31.3rem;
+    max-width: 100%;
+    height: 26rem;
+    /* background: url('../../../static/img/矢量智能对象.jpg') no-repeat; */
+    background-size: contain;
+}
+
+div.productBg .content .img-group {
+    margin: 0 0 2.75rem;
+}
+
+div.productBg .content .img-group .item {
+    float: left;
+    width: 20%;
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+    /* 				margin: 0 3.125rem;
+				 */
+    padding: 0 1.2rem;
+}
+
+div.productBg .content .img-group .item img {
+    display: block;
+    width: 2.5rem;
+    height: 2.5rem;
+    margin: 3rem auto 1.5rem;
+}
+
+div.productBg .content .img-group .item p {
+    line-height: 1.7rem;
+    font-size: 14px;
+    color: #666;
+    text-align: justify;
+}
+
+div.productBg .content .img-group .item div {
+    line-height: 1.7rem;
+    font-size: 14px;
+    color: #666;
+}
+
+div.productBg .content .img-group:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+div.productBg .content .card-group {
+    margin: -0.75rem -1.25rem;
+    padding-top: 1.5rem;
+    padding-bottom: 3.25rem;
+}
+
+div.productBg .content .card-group:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+div.productBg .content .card {
+    float: left;
+    margin: 0%;
+    width: 25%;
+    height: 10rem;
+    background: none;
+    text-align: center;
+}
+
+div.productBg .content .card img {
+    float: left;
+    margin: 3rem 4.5rem 3rem 6rem;
+    width: 3.7rem;
+    height: 4rem;
+}
+
+div.productBg .content .card .card-title {
+    padding-top: 2rem;
+    font-size: 22px;
+    line-height: 1.1rem;
+    color: #0078f0;
+}
+
+div.productBg .content .card .card-content {
+    padding-top: 1rem;
+    margin: -0.35rem 0;
+    font-size: 14px;
+    color: #666;
+    line-height: 1.7rem;
+}
+
+div.productBg .content .card .tips {
+    padding-top: 1rem;
+}
+
+div.productBg .content .card .tips .tip {
+    float: left;
+    margin-right: .6rem;
+    font-size: 14px;
+}
+
+div.productBg .content .card .tips .tip:before {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    width: .2rem;
+    height: .2rem;
+    border-radius: 50%;
+    margin-right: .3rem;
+}
+
+div.productBg .content .card .tips .tip:nth-child(1) {
+    color: #0078f0;
+}
+
+div.productBg .content .card .tips .tip:nth-child(1):before {
+    background: #0078f0;
+}
+
+div.productBg .content .card .tips .tip:nth-child(2) {
+    color: #01beb5;
+}
+
+div.productBg .content .card .tips .tip:nth-child(2):before {
+    background: #01beb5;
+}
+
+div.productBg .content .card .tips .tip:nth-child(3) {
+    color: #e79000;
+}
+
+div.productBg .content .card .tips .tip:nth-child(3):before {
+    background: #e79000;
+}
+
+div.productBg .content .card .tips:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+div.productBg .content .card {
+    float: left;
+    width: 25%;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+div.productBg .content .card i.iconfont {
+    font-size: 40px;
+    color: #66b7f0;
+    background-image: -webkit-gradient(linear, 0 0, right 0, from(#63aef8), to(#5ce5b8));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+div.productBg .content .card img {
+    width: 3.7rem;
+    height: 4rem;
+    margin-bottom: 2rem;
+}
+
+div.productBg .content .card .card-title {
+    padding-top: 2rem;
+    font-size: 22px;
+    line-height: 1.1rem;
+    color: #0078f0;
+}
+
+div.productBg .content .card .card-content {
+    padding-top: 1rem;
+    margin: -0.35rem 0;
+    font-size: 14px;
+    color: #666;
+    line-height: 1.4rem;
+}
+
+div.productBg .content .card .tips {
+    padding-top: 1rem;
+    display: inline-block;
+    margin: 0 auto;
+    padding-left: 0px;
+}
+
+div.productBg .content .card .tips .tip {
+    float: left;
+    margin-right: .6rem;
+    font-size: 14px;
+    list-style-type: none;
+}
+
+div.productBg .content .card .tips .tip:before {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    width: .2rem;
+    height: .2rem;
+    border-radius: 50%;
+    margin-right: .3rem;
+}
+
+div.productBg .content .card .tips .tip:nth-child(1) {
+    color: #0078f0;
+}
+
+div.productBg .content .card .tips .tip:nth-child(1):before {
+    background: #0078f0;
+}
+
+div.productBg .content .card .tips .tip:nth-child(2) {
+    color: #01beb5;
+}
+
+div.productBg .content .card .tips .tip:nth-child(2):before {
+    background: #01beb5;
+}
+
+div.productBg .content .card .tips .tip:nth-child(3) {
+    color: #e79000;
+}
+
+div.productBg .content .card .tips .tip:nth-child(3):before {
+    background: #e79000;
+}
+
+div.productBg .content .card .tips:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+@media screen and (max-width: 767px) {
+    div.productBg .tab {
+        font-size: .7rem;
+    }
+    div.productBg .title {
+        font-size: 1.7rem;
+    }
+    div.productBg .intro {
+        font-size: .9rem;
+    }
+    div.productBg .content .sub-title {
+        font-size: 1.2rem;
+    }
+    div.productBg .content .text {
+        font-size: .7rem;
+    }
+    div.productBg .content .img {
+        float: none;
+    }
+    div.productBg .content .img-group {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    div.productBg .content .img-group .item {
+        float: none;
+        display: inline-block;
+        margin: 0;
+        padding: 0 5%;
+        width: 50%;
+        vertical-align: top;
+    }
+    div.productBg .content .img-group .item p {
+        font-size: .7rem;
+    }
+    div.productBg .content .card {
+        position: relative;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding-left: 43%;
+    }
+    div.productBg .content .card img {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 18%;
+        margin: auto;
+    }
+    div.productBg .content .card .card-title {
+        font-size: 1.1rem;
+    }
+    div.productBg .content .card .card-content {
+        font-size: .7rem;
+    }
+    div.productBg .content .card .tips .tip {
+        font-size: .7rem;
+    }
+    div.productBg .content div.part01 {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        width: 100%;
+    }
+    div.productBg .content div.part01 div.item {
+        width: 100%;
+    }
+    div.productBg .content div.part02 {
+        padding: 1.5rem;
+    }
+    div.productBg .content div.part02 div.list-item div.img-group div.item {
+        float: left;
+        height: 14rem;
+    }
+    div.productBg .content div.part03 {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+    div.productBg .content div.part03 div.card-group {
+        width: 100%;
+        margin: 0px;
+        font-size: 0px;
+    }
+    div.productBg .content div.part03 div.card-group div.card {
+        width: 50%;
+        margin: 0px;
+        padding: 0px;
+        height: 14rem;
+    }
+    div.productBg .content div.part03 div.card-group div.card ul.tips {
+        text-align: center;
+    }
+    div.productBg .content div.part03 div.card-group div.card ul.tips li.tip {
+        float: none;
+        display: inline-block;
+    }
+}
+
+
+/* 视频服务 */
+
+div.productVideo .basic {
+    color: #0078f0;
+}
+
+div.productVideo .container {
+    width: 74rem;
+    max-width: 90%;
+    margin: auto;
+}
+
+div.productVideo .tab {
+    line-height: 3.7rem;
+    border-bottom: 1px solid #d9dadb;
+    font-size: 14px;
+    color: #333;
+}
+
+div.productVideo .tab .tab-hasNext {
+    color: #0078f0;
+}
+
+div.productVideo .tab .tab-hasNext:after {
+    content: " > ";
+    color: #333;
+}
+
+div.productVideo .title {
+    padding-top: 2.5rem;
+    font-size: 34px;
+    line-height: 1.7rem;
+    color: #0078f0;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+div.productVideo .intro {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+div.productVideo .content {
+    padding-bottom: 2.15rem;
+}
+
+div.productVideo .content div.lt {
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+div.productVideo .content div.rt {
+    width: 50%;
+    float: right;
+}
+
+div.productVideo .content img {
+    float: right;
+    width: 31.6rem;
+    max-width: 100%;
+}
+
+div.productVideo .content .sub-title {
+    padding-left: 1rem;
+    border-left: 3px solid #0078f0;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 1.5rem;
+}
+
+div.productVideo .content .ul-title {
+    margin-bottom: 1rem;
+    font-size: 20px;
+    line-height: 1.4rem;
+    color: #0078f0;
+    position: relative;
+    padding-left: 2.5rem;
+}
+
+div.productVideo .content .ul-title .iconfont {
+    position: absolute;
+    top: -0.1rem;
+    left: 0;
+    font-size: 24px;
+}
+
+div.productVideo .content ul {
+    margin-bottom: 2rem;
+    padding-left: 2.5rem;
+}
+
+div.productVideo .content li {
+    position: relative;
+    padding-left: .4rem;
+    font-size: 14px;
+    margin: 0px;
+    line-height: 1.7rem;
+    color: #666;
+}
+
+div.productVideo .content li:before {
+    content: '';
+    position: absolute;
+    top: .8rem;
+    left: -0.4rem;
+    width: .15rem;
+    height: .15rem;
+    background: #04bfb6;
+}
+
+div.productVideo .content-title {
+    text-align: center;
+    margin-bottom: 3rem;
+    font-size: 30px;
+    color: #333;
+}
+
+div.productVideo .content-title:after {
+    content: '';
+    margin: 1.2rem auto 0;
+    display: block;
+    width: 3.3rem;
+    height: 3px;
+    background: #0078f0;
+    margin-bottom: 3rem;
+}
+
+div.productVideo .content-2 {
+    padding-top: 2.5rem;
+    background: #f7f9fa;
+}
+
+div.productVideo .content-2 .card-group .card {
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 2.5rem;
+    width: 25%;
+    text-align: center;
+    margin-left: -6px;
+}
+
+div.productVideo .content-2 .card-group .card .iconfont {
+    display: block;
+    font-size: 60px;
+    margin-bottom: 1.6rem;
+    color: #7a8a99;
+}
+
+div.productVideo .content-2 .card-group .card .card-title {
+    font-size: 20px;
+    color: #0078f0;
+    margin-bottom: 1.25rem;
+}
+
+div.productVideo .content-2 .card-group .card .card-content {
+    font-size: 14px;
+    color: #666;
+    line-height: 2em;
+    margin-bottom: 3rem;
+    text-align: justify;
+}
+
+div.productVideo .content-2 .card-group:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+div.productVideo .content-3 {
+    padding-top: 3rem;
+    margin-bottom: 6rem;
+}
+
+div.productVideo .content-3 .content-intro {
+    color: #666;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+div.productVideo .content-3 .content-intro p {
+    line-height: 2em;
+    text-align: justify;
+}
+
+div.productVideo .content-3 .img-group .img {
+    position: relative;
+    vertical-align: middle;
+    line-height: 11.25rem;
+    height: 11.25rem;
+    border: 0.5rem solid rgba(0, 0, 0, 0);
+    width: 16.6666%;
+    float: left;
+}
+
+div.productVideo .content-3 .img-group .img img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+@media screen and (max-width: 765px) {
+    div.productVideo .tab {
+        font-size: .7rem;
+    }
+    div.productVideo .title {
+        font-size: 1.7rem;
+    }
+    div.productVideo .intro {
+        font-size: .9rem;
+    }
+    div.productVideo .content img {
+        float: none;
+        margin-bottom: 1rem;
+    }
+    div.productVideo .content .sub-title {
+        font-size: 1.2rem;
+    }
+    div.productVideo .content .ul-title {
+        font-size: 1rem;
+    }
+    div.productVideo .content li {
+        font-size: .7rem;
+    }
+    div.productVideo .content-title {
+        font-size: 1.5rem;
+    }
+    div.productVideo .content-2 .card-group .card {
+        padding: 0 1rem;
+        width: 50%;
+    }
+    div.productVideo .content-2 .card-group .card .iconfont {
+        font-size: 3rem;
+    }
+    div.productVideo .content-2 .card-group .card .card-title {
+        font-size: 1rem;
+    }
+    div.productVideo .content-2 .card-group .card .card-content {
+        font-size: .7rem;
+    }
+    div.productVideo .content-3 .content-intro {
+        font-size: .7rem;
+    }
+}
+
+
+/* 个人APP */
+
+div.productApp div.protit {
+    width: 67.5rem;
+    margin: 0 auto;
+    height: 3.5rem;
+    line-height: 3.5rem;
+    border-bottom: 1px solid #d9dadb;
+    font-size: 0px;
+}
+
+div.productApp div.protit a {
+    font-size: 14px;
+    color: #0078f0;
+    display: inline-block;
+}
+
+div.productApp div.protit a span {
+    color: #333;
+}
+
+div.productApp div.protit span {
+    font-size: 14px;
+    display: inline-block;
+    margin-left: 0.4rem;
+    margin-right: 0.4rem;
+}
+
+div.productApp div.title {
+    margin-bottom: 2.5rem;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+div.productApp div.title h4 {
+    font-size: 34px;
+    color: #0078f0;
+    line-height: 2.6rem;
+    margin-bottom: 1rem;
+    font-weight: normal;
+}
+
+div.productApp div.title p {
+    font-size: 18px;
+    color: #666;
+    line-height: 2.1rem;
+}
+
+div.productApp div.wenzi {
+    width: 70.8%;
+    margin: 0 auto;
+}
+
+div.productApp div.part01 {
+    background: #f7faf9;
+}
+
+div.productApp div.part01 div.title h4 {
+    font-size: 32px;
+    color: #333;
+    line-height: 3.9rem;
+}
+
+div.productApp div.part01 div.title span.line {
+    width: 3.3rem;
+    height: 3px;
+    background: #0078f0;
+    margin: 0 auto;
+    display: block;
+}
+
+div.productApp div.part01 p.wenzi {
+    width: 67.5rem;
+    font-size: 14px;
+    color: #666;
+    text-align: justify;
+    margin: auto;
+    margin-bottom: 3rem;
+    line-height: 1.7rem;
+}
+
+div.productApp div.part01 ul {
+    text-align: center;
+    padding-bottom: 3rem;
+}
+
+div.productApp div.part01 ul li {
+    display: inline-block;
+    text-align: center;
+    width: 14%;
+    vertical-align: top;
+}
+
+div.productApp div.part01 ul li div {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 2rem;
+    border: 1px solid #0078f0!important;
+    color: #0078f0;
+    line-height: 4rem;
+    margin: 0 auto;
+    margin-bottom: 1.5rem;
+}
+
+div.productApp div.part01 ul li p {
+    font-size: 16px;
+    color: #333;
+    letter-spacing: .5px;
+}
+
+div.productApp div.part02 {
+    background: none!important;
+}
+
+div.productApp div.part02 div.title h4 {
+    font-size: 32px;
+    color: #333;
+    line-height: 3.9rem;
+}
+
+div.productApp div.part02 div.title span.line {
+    width: 3.3rem;
+    height: 3px;
+    background: #0078f0;
+    margin: 0 auto;
+    display: block;
+}
+
+div.productApp div.part02 div.container div.item {
+    height: auto;
+    min-height: 15.5rem;
+}
+
+div.productApp div.part02 div.container div.item:nth-child(2n+1) {
+    background: #f7faf9;
+}
+
+div.productApp div.part02 div.container div.item:nth-child(2n+2) div.item_main div.pic {
+    float: right;
+    margin-left: 7rem;
+    margin-right: 0;
+    transition: all .5s;
+    -moz-transition: all .5s;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+}
+
+div.productApp div.part02 div.container div.item div.item_main {
+    width: 66rem;
+    margin: 0 auto;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    transition: all .5s;
+    -moz-transition: all .5s;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+}
+
+div.productApp div.part02 div.container div.item div.item_main div.pic {
+    float: left;
+    width: 21rem;
+    margin-right: 7rem;
+    transition: all .5s;
+    -moz-transition: all .5s;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+}
+
+div.productApp div.part02 div.container div.item div.item_main div.pic img {
+    max-width: 100%;
+    max-height: 13rem;
+}
+
+div.productApp div.part02 div.container div.item div.item_main div.content {
+    /* float: left; */
+    display: inline-block;
+    vertical-align: bottom;
+    width: 38rem;
+}
+
+div.productApp div.part02 div.container div.item div.item_main div.content p {
+    font-size: 14px;
+    color: #333;
+    line-height: 1.7rem;
+}
+
+div.productApp div.part02 div.container div.item div.item_main div.content div {
+    font-size: 14px;
+    color: #333;
+    line-height: 1.7rem;
+}
+
+div.productApp div.part02 div.container div.item div.item_main div.content p.tit {
+    color: #0078f0;
+    font-size: 22px;
+    margin: 1.5rem 0;
+}
+
+div.productApp div.part02 div.container div.active:last-child div.item_main div.pic,
+div.productApp div.part02 div.container div.active:nth-child(2) div.item_main div.pic,
+div.productApp div.part02 div.container div.active:nth-child(4) div.item_main div.pic,
+div.productApp div.part02 div.container div.active:nth-child(6) div.item_main div.pic {
+    margin-left: 4rem;
+    float: right;
+    margin-right: 0;
+    transition: all .5s;
+    -moz-transition: all .5s;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+}
+
+div.productApp div.part02 div.container div.active div.item_main div.pic {
+    transition: all .5s;
+    -moz-transition: all .5s;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    margin-right: 4rem;
+}
+
+div.productApp div.part03 div.title h4 {
+    font-size: 32px;
+    color: #333;
+    line-height: 3.9rem;
+}
+
+div.productApp div.part03 div.title span.line {
+    width: 3.3rem;
+    height: 3px;
+    background: #0078f0;
+    margin: 0 auto;
+    display: block;
+}
+
+div.productApp div.part03 div.container {
+    width: 46.6rem;
+    margin: 0 auto;
+    padding-bottom: 3.5rem;
+    text-align: center;
+}
+
+div.productApp div.part03 div.container>div {
+    width: 23.3rem;
+    float: left;
+}
+
+div.productApp div.part03 div.container div.code {
+    float: none;
+    display: inline-block;
+    margin: 0px;
+    text-align: center;
+    vertical-align: top;
+}
+
+div.productApp div.part03 div.container div.code p {
+    margin-top: .5rem;
+    font-size: 20px;
+}
+
+div.productApp div.part03 div.container div.code p a {
+    color: #0078f0;
+}
+
+div.productApp div.part03 div.container div.phone {
+    padding-top: 4.5rem;
+    float: none;
+    display: inline-block;
+    vertical-align: top;
+}
+
+div.productApp div.part03 div.container div.phone div.item {
+    display: inline-block;
+    margin: 0px;
+    width: 40%;
+}
+
+div.productApp div.part03 div.container div.phone div.item div.img-editable {
+    background: none!important;
+}
+
+@media screen and (max-width: 767px) {
+    div.productApp div.part01 {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+    div.productApp div.part01 ul li {
+        width: 30%;
+    }
+    div.productApp div.part01 p.wenzi {
+        width: 100%;
+    }
+    div.productApp div.part02 div.container div.item {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        height: 32rem;
+    }
+    div.productApp div.part02 div.container div.item div.item_main {
+        width: 100%;
+    }
+    div.productApp div.part02 div.container div.item div.item_main div.pic {
+        width: 100%;
+        margin: 0px;
+        text-align: center;
+    }
+    div.productApp div.part02 div.container div.item div.item_main div.pic img {
+        margin: 0 auto;
+        height: 100%;
+        display: inline-block;
+    }
+    div.productApp div.part02 div.container div.item div.item_main div.content {
+        width: auto;
+        padding-top: 1rem;
+    }
+}

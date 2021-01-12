@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>万古eHR系统|人力资源管理软件|eHR系统|人事管理软件|HR软件|人力资源管理系统</title>
+    <meta http-equiv="X-UA-Compatible" content="Chrome=1,IE=edge">
+    <meta name="keywords" content="万古eHR系统|人力资源管理软件|eHR系统|人才发展|Vantop|Vcloud SaaS|Vcloud Mobile|数据服务">
+	<meta name="description" content="万古eHR系统|人力资源管理软件|eHR系统|人才发展|Vantop|Vcloud SaaS|Vcloud Mobile|数据服务">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+	<meta name="applicable-device" content="pc,mobile"/>
+    <link rel="stylesheet" type="text/css" href="static/css/reset.css">
+</head>
+
+<body>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+    <span class="toTop" id='toTop'></span>
+    <link rel="stylesheet" type="text/css" href="static/css/iconfont.css">
+    <style type="text/css">
+    	span.toTop{
+    		position: fixed;
+			display: block;
+			width: 50px;
+			height: 50px;
+			background: url('static/img/toTop.png') no-repeat center center;
+			background-size: contain;
+			bottom:100px;
+			right: 40px;
+			display: none;
+			z-index: 101;
+    	}
+    	@media screen and (max-width: 767px){
+			span.toTop{
+				right: 1.5rem;
+				width: 3.5rem;
+				height: 3.5rem;
+			}
+		}
+    </style>
+    <script type="text/javascript">
+    	var oRTT=document.getElementById('toTop');
+		var pH=document.documentElement.clientHeight;
+		var timer=null;
+		var scrollTop;
+		window.onscroll=function(){
+			scrollTop=document.documentElement.scrollTop||document.body.scrollTop;
+			if(scrollTop>=pH){
+				oRTT.style.display='block';
+			}else{
+				oRTT.style.display='none';
+			}
+			return scrollTop;
+		};
+		oRTT.onclick=function(){
+			clearInterval(timer);
+			timer=setInterval(function(){
+				var now=scrollTop;
+				var speed=(0-now)/10;
+				speed=speed>0?Math.ceil(speed):Math.floor(speed);
+				if(scrollTop==0){
+					clearInterval(timer);
+				}
+				document.documentElement.scrollTop=scrollTop+speed;
+				document.body.scrollTop=scrollTop+speed;
+			}, 30);
+		}
+    </script><!-- Live800默认功能代码: 开始-->
+<script language="javascript" src="http://chat10.live800.com/live800/chatClient/monitor.js?jid=4425310040&companyID=425636&configID=216531&codeType=custom"></script>
+<!-- Live800默认功能代码: 结束-->
+    
+</body>
+
+</html>
